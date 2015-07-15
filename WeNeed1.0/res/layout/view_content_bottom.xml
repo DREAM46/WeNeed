@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_main"
+    style="@style/radioGroup_style" >
+
+    <RadioButton
+        android:id="@+id/rb_content_fragment_publish"
+        style="@style/main_tab_odd_style"
+        android:checked="true"
+        android:text="发布\n需求" />
+
+    <RadioButton
+        android:id="@+id/rb_content_fragment_neaeBy"
+        style="@style/main_tab_even_style"
+        android:text="附近\n的人" />
+
+    <RadioButton
+        android:id="@+id/rb_content_fragment_chat"
+        style="@style/main_tab_odd_style"
+        android:text="聊天" />
+
+    <RadioButton
+        android:id="@+id/rb_content_fragment_personal"
+        style="@style/main_tab_even_style"
+        android:background="@color/pink"
+        android:text="个人\n中心" />
+
+</RadioGroup>

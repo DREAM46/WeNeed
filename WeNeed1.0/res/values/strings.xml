@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微需求</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="rb_content_fragment_publish">发布\\n需求</string>
+    <string name="btn_publish">发布差事</string>
+    <string name="hrg_publish_rb1">附近的发布</string>
+    <string name="hrg_publish_rb2">收到的雇佣</string>
+    <string name="hrg_nearby_rb1">列表模式</string>
+    <string name="hrg_nearby_rb2">地图模式</string>
+    <string name="tv_select">工种选择</string>
+
+</resources>

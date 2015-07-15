@@ -1,0 +1,67 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   WeNeed1.0/.classpath
+#	new file:   WeNeed1.0/.project
+#	new file:   WeNeed1.0/.settings/org.eclipse.jdt.core.prefs
+#	new file:   WeNeed1.0/AndroidManifest.xml
+#	new file:   WeNeed1.0/ic_launcher-web.png
+#	new file:   WeNeed1.0/libs/android-support-v4.jar
+#	new file:   WeNeed1.0/libs/slidingmenu.jar
+#	new file:   WeNeed1.0/libs/xUtils-2.4.7.jar
+#	new file:   WeNeed1.0/proguard-project.txt
+#	new file:   WeNeed1.0/project.properties
+#	new file:   WeNeed1.0/res/drawable-hdpi/boy.png
+#	new file:   WeNeed1.0/res/drawable-hdpi/common_listview_headview_red_arrow.png
+#	new file:   WeNeed1.0/res/drawable-hdpi/girl.png
+#	new file:   WeNeed1.0/res/drawable-hdpi/ic_launcher.png
+#	new file:   WeNeed1.0/res/drawable-mdpi/ic_launcher.png
+#	new file:   WeNeed1.0/res/drawable-xhdpi/ic_launcher.png
+#	new file:   WeNeed1.0/res/drawable-xxhdpi/ic_launcher.png
+#	new file:   WeNeed1.0/res/drawable/bg_btn.xml
+#	new file:   WeNeed1.0/res/drawable/bg_hrg_rb.xml
+#	new file:   WeNeed1.0/res/drawable/color_rb_text.xml
+#	new file:   WeNeed1.0/res/drawable/custom_progressbar.xml
+#	new file:   WeNeed1.0/res/drawable/shape_btn_normal.xml
+#	new file:   WeNeed1.0/res/drawable/shape_btn_pressed.xml
+#	new file:   WeNeed1.0/res/layout/activity_main.xml
+#	new file:   WeNeed1.0/res/layout/view_content_bottom.xml
+#	new file:   WeNeed1.0/res/layout/view_content_layout.xml
+#	new file:   WeNeed1.0/res/layout/view_lv_cell_nearby.xml
+#	new file:   WeNeed1.0/res/layout/view_lv_cell_publish.xml
+#	new file:   WeNeed1.0/res/layout/view_page_nearby.xml
+#	new file:   WeNeed1.0/res/layout/view_page_publish.xml
+#	new file:   WeNeed1.0/res/layout/view_radiogroup.xml
+#	new file:   WeNeed1.0/res/layout/view_refresh_footer_view.xml
+#	new file:   WeNeed1.0/res/layout/view_refresh_header_view.xml
+#	new file:   WeNeed1.0/res/values-sw600dp/dimens.xml
+#	new file:   WeNeed1.0/res/values-sw720dp-land/dimens.xml
+#	new file:   WeNeed1.0/res/values-v11/styles.xml
+#	new file:   WeNeed1.0/res/values-v14/styles.xml
+#	new file:   WeNeed1.0/res/values/attrs.xml
+#	new file:   WeNeed1.0/res/values/color.xml
+#	new file:   WeNeed1.0/res/values/dimens.xml
+#	new file:   WeNeed1.0/res/values/strings.xml
+#	new file:   WeNeed1.0/res/values/styles.xml
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/MainActivity.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/BaseApplication.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/BaseFragment.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/BasePage.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/MyBaseAdapter.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/impl/ChatPage.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/impl/NearByPage.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/impl/PersonalPage.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/base/impl/PublishPage.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/domin/PersonInfo.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/domin/WorkInfo.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/fragment/MainContentFragment.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/utils/Constant.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/view/HorizontalRadioGroup.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/view/NoScrollPager.java
+#	new file:   WeNeed1.0/src/com/fruntime/weneed/view/RefreshListView.java
+#
+

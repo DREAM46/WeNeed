@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fruntime="http://schemas.android.com/apk/res/com.fruntime.weneed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray" >
+
+        <Button
+            android:id="@+id/btn_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_btn"
+            android:padding="5dp"
+            android:text="@string/btn_publish"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <com.fruntime.weneed.view.HorizontalRadioGroup
+        android:id="@+id/hrg_publish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fruntime:rb1_text="@string/hrg_publish_rb1"
+        fruntime:rb2_text="@string/hrg_publish_rb2" />
+
+    <ListView
+        android:id="@+id/rl_publish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>
