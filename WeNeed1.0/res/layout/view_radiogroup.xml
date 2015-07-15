@@ -5,16 +5,19 @@
 
     <RadioGroup
         android:id="@+id/rg_hor"
-        style="@style/radioGroup_style" >
+        style="@style/radioGroup_style"
+        android:layout_height="100dp" >
 
         <RadioButton
             android:id="@+id/rb1"
             style="@style/main_tab_odd_style"
+            android:background="@color/ivory"
             android:checked="true" />
 
         <RadioButton
             android:id="@+id/rb2"
-            style="@style/main_tab_even_style" />
+            style="@style/main_tab_even_style"
+            android:background="@color/pink" />
     </RadioGroup>
 
 </RelativeLayout>

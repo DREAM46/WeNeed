@@ -8,7 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
         android:background="@color/gray" >
 
         <Button
@@ -28,15 +29,17 @@
     <com.fruntime.weneed.view.HorizontalRadioGroup
         android:id="@+id/hrg_publish"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         fruntime:rb1_text="@string/hrg_publish_rb1"
         fruntime:rb2_text="@string/hrg_publish_rb2" />
 
     <ListView
         android:id="@+id/rl_publish"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_marginTop="3dp"
+        android:layout_weight="8"
         android:cacheColorHint="@android:color/transparent"
         android:fadingEdge="none"
         android:listSelector="@android:color/transparent" />

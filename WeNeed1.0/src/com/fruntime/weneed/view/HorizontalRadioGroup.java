@@ -26,9 +26,7 @@ public class HorizontalRadioGroup extends RelativeLayout implements
 
 	public HorizontalRadioGroup(Context context, AttributeSet attrs) {
 		super(context, attrs);
-
 		init(context, attrs);
-
 	}
 
 	private void init(Context context, AttributeSet attrs) {

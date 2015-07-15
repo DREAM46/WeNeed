@@ -15,6 +15,8 @@ import com.fruntime.weneed.R;
 import com.fruntime.weneed.base.BasePage;
 import com.fruntime.weneed.base.MyBaseAdapter;
 import com.fruntime.weneed.domin.PersonInfo;
+import com.fruntime.weneed.view.HorizontalRadioGroup;
+import com.fruntime.weneed.view.HorizontalRadioGroup.OnCheckedChangeListener;
 
 /**
  * 附近的人界面的page
@@ -22,9 +24,10 @@ import com.fruntime.weneed.domin.PersonInfo;
  * @author 温坤哲
  * @date 2015-7-13
  */
-public class NearByPage extends BasePage {
+public class NearByPage extends BasePage implements OnCheckedChangeListener {
 
 	private ListView rl_nearby;
+	private HorizontalRadioGroup hrg_nearby;
 	private ImageButton ib_nearby_spinner;
 	private ImageButton ib_slidingMenu;
 
@@ -44,6 +47,9 @@ public class NearByPage extends BasePage {
 		ib_nearby_spinner = (ImageButton) view
 				.findViewById(R.id.ib_nearby_spinner);
 		ib_slidingMenu = (ImageButton) view.findViewById(R.id.ib_slidingMenu);
+		hrg_nearby = (HorizontalRadioGroup) view.findViewById(R.id.hrg_nearby);
+		hrg_nearby.setOnCheckedChangeListener(this);
+
 		return view;
 	}
 
@@ -121,6 +127,18 @@ public class NearByPage extends BasePage {
 			holder.tv_detail.setText(person.getDetail());
 			return convertView;
 		}
+	}
+
+	@Override
+	public void onRBtn1CheckedChange() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void onRBtn2CheckedChange() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

@@ -15,6 +15,8 @@ import com.fruntime.weneed.R;
 import com.fruntime.weneed.base.BasePage;
 import com.fruntime.weneed.base.MyBaseAdapter;
 import com.fruntime.weneed.domin.WorkInfo;
+import com.fruntime.weneed.view.HorizontalRadioGroup;
+import com.fruntime.weneed.view.HorizontalRadioGroup.OnCheckedChangeListener;
 import com.lidroid.xutils.util.LogUtils;
 
 /**
@@ -23,10 +25,12 @@ import com.lidroid.xutils.util.LogUtils;
  * @author Œ¬¿§’‹
  * @date 2015-7-12
  */
-public class PublishPage extends BasePage implements OnClickListener {
+public class PublishPage extends BasePage implements OnClickListener,
+		OnCheckedChangeListener {
 
 	private ListView rl_publish;
 	private Button btn_publish;
+	private HorizontalRadioGroup hrg_publish;
 
 	private List<WorkInfo> works;
 
@@ -41,6 +45,10 @@ public class PublishPage extends BasePage implements OnClickListener {
 
 		btn_publish = (Button) view.findViewById(R.id.btn_publish);
 		btn_publish.setOnClickListener(this);
+
+		hrg_publish = (HorizontalRadioGroup) view
+				.findViewById(R.id.hrg_publish);
+		hrg_publish.setOnCheckedChangeListener(this);
 
 		rl_publish = (ListView) view.findViewById(R.id.rl_publish);
 
@@ -73,7 +81,7 @@ public class PublishPage extends BasePage implements OnClickListener {
 
 	private class PublishAdapter extends MyBaseAdapter<WorkInfo, ListView> {
 
-		class ViewHolder{
+		class ViewHolder {
 			TextView tv_subject;
 			TextView tv_date;
 			TextView tv_detail;
@@ -90,14 +98,14 @@ public class PublishPage extends BasePage implements OnClickListener {
 
 		}
 
-		 private ViewHolder getHolder(View convertView) {
-		 ViewHolder holder = (ViewHolder) convertView.getTag();
-		 if (holder == null) {
-		 holder = new ViewHolder(convertView);
-		 convertView.setTag(holder);
-		 }
-		 return holder;
-		 }
+		private ViewHolder getHolder(View convertView) {
+			ViewHolder holder = (ViewHolder) convertView.getTag();
+			if (holder == null) {
+				holder = new ViewHolder(convertView);
+				convertView.setTag(holder);
+			}
+			return holder;
+		}
 
 		private ViewHolder holder;
 
@@ -120,6 +128,16 @@ public class PublishPage extends BasePage implements OnClickListener {
 			holder.tv_address.setText(work.getAddress());
 			return convertView;
 		}
+
+	}
+
+	@Override
+	public void onRBtn1CheckedChange() {
+
+	}
+
+	@Override
+	public void onRBtn2CheckedChange() {
 
 	}
 }

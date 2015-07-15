@@ -11,5 +11,6 @@
     <string name="hrg_nearby_rb1">列表模式</string>
     <string name="hrg_nearby_rb2">地图模式</string>
     <string name="tv_select">工种选择</string>
+    <string name="btn_guide">开始</string>
 
 </resources>
